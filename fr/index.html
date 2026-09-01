@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regarde qui est là ! 👀</title>
+  
+  <!-- Modern Typography (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft': '0 20px 40px -15px rgba(0, 0, 0, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.04)',
+            'card-hover': '0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #ffffff;
+      background-image: radial-gradient(#f1f5f9 1.5px, transparent 1.5px);
+      background-size: 32px 32px;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center px-4 py-12 antialiased selection:bg-slate-900 selection:text-white">
+
+  <!-- Main Centered Content Card -->
+  <main class="w-full max-w-md">
+    <div class="bg-white border border-slate-100 rounded-3xl p-8 sm:p-10 text-center shadow-soft transition-all duration-300">
+      
+      <!-- Heading -->
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4 leading-tight">
+        Regarde qui est là ! 👀
+      </h1>
+
+      <!-- Message -->
+      <p class="text-base sm:text-lg text-slate-600 mb-8 max-w-sm mx-auto leading-relaxed font-normal">
+        Directement de Facebook à ma ligne privée ! Je cherche quelqu'un de sincère pour construire une vraie relation. Choisis ton appli préférée ci-dessous pour avoir mon numéro. Ne sois pas timide, je t'attends ! 😉
+      </p>
+
+      <!-- 5 Separate Prominent Action Buttons -->
+      <div class="flex flex-col gap-3.5 w-full">
+        
+        <!-- 1. Phone Number Button -->
+        <a
+          href="https://omg10.com/4/7307791"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full p-4 bg-slate-900 hover:bg-black text-white rounded-2xl flex items-center justify-between shadow-sm hover:shadow-card-hover transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] transition-all duration-200 group text-left"
+        >
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-white text-slate-900 flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm p-2.5">
+              <svg class="w-full h-full fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-2.2 2.2a15.053 15.053 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.57 3.9c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.52c0-.55-.45-1-.99-1z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="font-bold text-base text-white block leading-snug">Clique ici pour avoir mon numéro</span>
+              <span class="text-xs text-slate-300 font-medium block mt-0.5">Touche pour obtenir mon numéro</span>
+            </div>
+          </div>
+          <div class="w-9 h-9 rounded-xl bg-white/10 flex items-center justify-center text-white group-hover:bg-white/20 transition-all flex-shrink-0 ml-2">
+            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+          </div>
+        </a>
+
+        <!-- 2. WhatsApp Button with Crisp White Icon Badge -->
+        <a
+          href="https://omg10.com/4/7307791"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full p-4 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-2xl flex items-center justify-between shadow-sm hover:shadow-card-hover transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] transition-all duration-200 group text-left"
+        >
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm p-2">
+              <img src="../icon/cdnlogo.com_whatsapp-icon-logo.png" alt="WhatsApp" class="w-full h-full object-contain" />
+            </div>
+            <div>
+              <span class="font-bold text-base text-white block leading-snug">WhatsApp</span>
+              <span class="text-xs text-white/90 font-medium block mt-0.5">Discute avec moi sur WhatsApp</span>
+            </div>
+          </div>
+          <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-all flex-shrink-0 ml-2">
+            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+          </div>
+        </a>
+
+        <!-- 3. Zangi Button with Crisp White Icon Badge -->
+        <a
+          href="https://omg10.com/4/7307791"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full p-4 bg-[#316FF6] hover:bg-[#255fd4] text-white rounded-2xl flex items-center justify-between shadow-sm hover:shadow-card-hover transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] transition-all duration-200 group text-left"
+        >
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm p-2">
+              <img src="../icon/idG8eZOnJY_logos-removebg-preview.png" alt="Zangi" class="w-full h-full object-contain" />
+            </div>
+            <div>
+              <span class="font-bold text-base text-white block leading-snug">Zangi</span>
+              <span class="text-xs text-white/90 font-medium block mt-0.5">Messagerie privée sur Zangi</span>
+            </div>
+          </div>
+          <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-all flex-shrink-0 ml-2">
+            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+          </div>
+        </a>
+
+        <!-- 4. Telegram Button with Crisp White Icon Badge -->
+        <a
+          href="https://omg10.com/4/7307791"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full p-4 bg-[#229ED9] hover:bg-[#1c8ec4] text-white rounded-2xl flex items-center justify-between shadow-sm hover:shadow-card-hover transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] transition-all duration-200 group text-left"
+        >
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm p-2">
+              <img src="../icon/cdnlogo.com_telegram-logo.png" alt="Telegram" class="w-full h-full object-contain" />
+            </div>
+            <div>
+              <span class="font-bold text-base text-white block leading-snug">Telegram</span>
+              <span class="text-xs text-white/90 font-medium block mt-0.5">Écris-moi sur Telegram</span>
+            </div>
+          </div>
+          <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-all flex-shrink-0 ml-2">
+            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+          </div>
+        </a>
+
+        <!-- 5. SMS Text Button with Crisp White Icon Badge -->
+        <a
+          href="https://omg10.com/4/7307791"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full p-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl flex items-center justify-between shadow-sm hover:shadow-card-hover transform hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] transition-all duration-200 group text-left"
+        >
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-white text-indigo-600 flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm p-2.5">
+              <svg class="w-full h-full fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="font-bold text-base text-white block leading-snug">SMS</span>
+              <span class="text-xs text-white/90 font-medium block mt-0.5">Envoie-moi un SMS direct</span>
+            </div>
+          </div>
+          <div class="w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-all flex-shrink-0 ml-2">
+            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
